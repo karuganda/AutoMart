@@ -10,7 +10,19 @@
     <div class="filtersection">
         <form action="">
             <label for="price"> price</label>
-            <input type="text" name="price" placeholder="min">
+            <input type="text" name="price" placeholder="min">-
+            <input type="text" name="price" placeholder="max">
+            <input type="checkbox" name="shipping" id="ship">
+            <label for="shipping">Free shipping</label>
+            <div class="sort">
+                    <select name="sort" id="sort" >
+                        <option value="best">Best Match</option>
+                        <option value="l2h">Price (Low to High)</option>
+                        <option value="h2l">Price (High to Low)</option>
+                        <option value="d2n">Date (Old to New)</option>
+                        <option value="n2d">Date (New to Old)</option>
+                    </select>
+                </div>
         </form>
     </div>
     <div class="carad">
@@ -25,6 +37,7 @@
             <div class="carlocation"></div>
             <div class="carmanufacturer"></div>
             <div class="carmanufactyear"></div>
+            
 
         </div>
     </div>

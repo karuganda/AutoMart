@@ -4,39 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="E:\AutoMart\UI\css\main.css">
     <title>AutoMart</title>
 </head>
 <body>
-    <header>
-        <form action="">
-            <label for="">Username:</label>
-            <input type="text">
-            <label for="">Password:</label>
-            <input type="password">
-            <input type="submit" value="Login">
-        </form>
-        <button>sign Up</button>
-    </header>
-
-    <div class="carad">
-        
-            <div class="carpic">
-                   <!-- <img src="E:\AutoMart\UI\images\roadster2.jpg" alt="roadster2">-->
-            </div>
-            <div class="cardescription">
-                <div class="carname"></div>
-                <div class="carprice"></div>
-                <div class="carmiles"></div>
-                <div class="carlocation"></div>
-                <div class="carmanufacturer"></div>
-                <div class="carmanufactyear"></div>
-                
-    
-            </div>
-        </div>
-    <footer>
-
-    </footer>
-    
+  <header>
+    <nav>
+      <form >
+        <input class="text one" type="text" name="first_name" placeholder="Username" />
+        <input class="text " type="password" name="last_name" placeholder="Password" />
+        <input class="login" type="submit" name="submit" value="Log in">
+      </form>
+      <a  href=#>Forgot password?</a>
+    </nav>
+  </header>
+  <div>
+    <section>
+      <img src="images\background.jpg">
+    </section>
+    <section class="section2">
+      <h2>Sign Up and start shopping Today!</h2>
+      <form id="registration">
+        <input class="input" type="text" name="first_name" placeholder="First name" /><br>
+        <input class="input" type="text" name="surname_name" placeholder="Surname" /><br> 
+        <input class="input " type="tel" name="mobile" placeholder="Mobile number " /><br>
+        <input class="input" type="email" name="email" placeholder="Your email"><br>
+        <input class="input " type="password" name="Password" placeholder="Enter your new password" />
+      
+      <h3 > Your date of Birth</h3>
+      <div class="select">
+      <select class="yeah" name="dropdown">
+        <option class="yeah" selected>16</option>
+        <option  class="yeah">17</option>
+      </select>
+      <select class="yeah" name="dropdown">
+        <option selected>Oct</option>
+        <option  >Nov</option>
+        <option  >Dec</option>
+      </select>
+      <select class="yeah" name="dropdown">
+        <option class="yeah" selected>1993</option>
+        <option class="yeah">1994</option>
+      </select>
+      <br>
+      
+    </div>
+    <h3 > Your gender </h3>
+        <input type="radio" class="radio" > Female
+        <input type="radio" class="radio"> Male
+      </form>
+      <input href="#" class="sign" type="submit" name="submit" value="Sign Up">
+    </section>
+  </div>
 </body>
 </html>
